@@ -1,0 +1,31 @@
+ghalebb
+
+Ghaleb Butto
+=============================
+=      File description     =
+=============================
+- Library.java - contains the library implementation and the main method of the program
+
+- Patron.java - This class represents a library patron that has a name and assigns values
+to different literary aspects of books.
+
+- Book.java - This class represents a book, which has a title, author, year of publication
+and different literary aspects.
+
+
+=============================
+=          Design           =
+=============================
+I implemented tho book class in a way the can be reused, that is, when the library
+wants to get rid of the book or give it to other patron, it only reset the book Id and the borrower ID.
+and I implemented the book and patron IDs in a way that can be easy, which means the the book number or
+the patron is just the number of when they were added
+to the shelve or registered to the library.
+I chose this design because it is similar to real world libraries and it is easy for use
+
+
+=============================
+=  Implementation details   =
+=============================
+In the Library class I chose arrays to store both book objects and patrons
+and the number of the index of the object in the array is its id number
